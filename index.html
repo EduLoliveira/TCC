@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Architects+Daughter&family=DynaPuff&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="icon" href="imagem/Astroph-.png">
+    <title>Roll The Cat</title>
+</head>
+    <body>
+        <header class="header">
+                <nav class="menu__header">
+                    <ul class="lista__header">
+                        <li class="lista__header"><a class="btn btn-white btn-animate" href="#regioes">Regiões</a></li>
+                        <li class="lista__header"><a class="btn btn-white btn-animate" href="#trailer">Trailer</a></li>
+                        <li class="lista__header"><a class="btn btn-white btn-animate" href="#instalar">Instalar</a></li>
+                    </ul>
+                </nav>
+                <div class="background__gato--header">
+                    <img src="Imagem/Astroph-.png" alt="Logo gato" class="logo__header">
+                </div>
+        </header>
+
+            <div class="apresentacao__div">
+                <img src="Imagem/Gato_semfundo.png" alt="gato" class="gato__div">
+                <p class="p">&nbsp;&nbsp;Catastroph apresenta um mundo rico em história e cultura que convida sutilmente o jogador a explorar a profundezas mais ocultas de sua história, recompensando o jogador por buscar a história de como Luara chegou ao estado atual.
+                </p>
+            </div>
+            
+            <section id="trailer">
+                <div class="trailer__section">
+                    <video width="60%" preload="auto" controls class="trailer__video">
+                        <source src="Pitch (ATUAL).mp4" type="video/mp4">
+                    </video> 
+                    
+                </section>
+            <section class="corpo__section wrapper">
+                <div class="box1"> 
+                    Historia do Jogo, Instalação 
+                </div>
+
+                <div class="box2" id="regioes">
+                    <a class="box2--btn" href="">Conhecer Regiões</a>
+                    <p class="box2__regioes">Aqui temos algumas de nosssas regioes.</p>
+                    <div class="slider">
+                        <div class="slides">
+                            <input type="radio" name="radio-btn" id="radio1">
+                            <input type="radio" name="radio-btn" id="radio2">
+                            <input type="radio" name="radio-btn" id="radio3">
+                            <input type="radio" name="radio-btn" id="radio4">
+
+                            <div class="slide first">
+                                <img src="Imagem/Cat IMG1.jpeg" alt="Regiao (nome)">
+                            </div>
+                            <div class="slide">
+                                <img src="Imagem/Cat IMG2.jpeg" alt="Regiao (nome)">
+                            </div>
+                            <div class="slide">
+                                <img src="Imagem/Cat IMG3.jpeg" alt="Regiao (nome)">
+                            </div>
+                            <div class="slide">
+                                <img src="Imagem/Cat IMG4.jpeg" alt="Regiao (nome)">
+                            </div>
+                            <!-- slides imagem  -->
+                            <!-- automatizando navegação (começo) -->
+                            <div class="navegation-auto">
+                                <div class="auto-btn1"></div>
+                                <div class="auto-btn2"></div>
+                                <div class="auto-btn3"></div>
+                                <div class="auto-btn4"></div>
+                            </div>
+                            <!-- automatizando navegação (final) -->
+                        </div>
+                        <!-- manual navegação começo  -->
+                        <div class="navegation-manual"> 
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                            <label for="radio4" class="manual-btn"></label>
+                        </div>
+                        <!-- manual navegação final  -->
+                    </div>
+                </div>
+                
+                <div class="box3">
+                    <p class="box3--copyright">© 2022 CatAstroph-Copyright.</p>
+                    <small>*Todos os direitos reservados..</small>
+                    <p class="box3--Autores">Artistas - Ana clara da Silva de Abreu , Enzo Longhi de Carvalho <br> Desenvolvedores Jogo - Lukaue Cordeiro Alves do Santos , Willian de Sena Chiquinato<br>Roteirista - Henrique Skrotzky Pellegrini <br>Produtor de áudio - Jorge Miguel Carnivalho de Lima <br> Desenvolvedor web - Eduardo Lucio de Oliveira</p>
+                </div>
+             </div>
+             
+            </section>
+            <script type="text/javascript" src="app.js"></script>
+        </div>
+    </body>
+</html>
